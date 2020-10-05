@@ -1,7 +1,7 @@
-# By Sharon Campbell, Ken Simon, and Joe Beda for Heptio
+# By Sharon Campbell, Ken Simon, and Joe Beda for Heptio; later modified by www.continualintegration.com
 #deploy the PHP and Apache container from heptio/example-php-dbconnect
 
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 # https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 kind: Deployment
 metadata:
