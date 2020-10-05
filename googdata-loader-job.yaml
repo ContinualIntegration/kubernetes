@@ -1,4 +1,4 @@
-# By Sharon Campbell, Ken Simon, and Joe Beda for Heptio
+# By Sharon Campbell, Ken Simon, and Joe Beda for Heptio; later modified by www.continualintegration.com
 # one-time Job that executes the /tmp/mysql-sakila-data-loader.sh script
 # from another container copy of our PHP image
 # this is how we get initial data for our database
