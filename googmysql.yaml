@@ -1,4 +1,4 @@
-# By Sharon Campbell, Ken Simon, and Joe Beda for Heptio
+# By Sharon Campbell, Ken Simon, and Joe Beda for Heptio; later modified by www.continualintegration.com
 # create and claim a persistent volume for our pod
 # this works because we enabled cloud-provider=aws
 # so it can create a disk for itself
@@ -29,7 +29,7 @@ spec:
 ---
 # deploy the MySQL server container
 
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 # https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 kind: Deployment
 metadata:
